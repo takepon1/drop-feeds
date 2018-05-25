@@ -378,10 +378,10 @@
 
   "comment7": {"message": "------------------Subscribe this feed strings------------------"},
   "stfSubscribeUsing": {
-    "message": "Subscribe to this feed using"
+    "message": "購読するフィードを選択"
   },
   "stfSubscribeNow": {
-    "message": "Subscribe now"
+    "message": "購読する"
   }
 
 }
