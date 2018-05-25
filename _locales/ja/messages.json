@@ -4,7 +4,7 @@
   },
 
   "manExtensionDescription": {
-    "message": "サイドバーを開いてフォルダーツリーでRSSフィードを管理してください",
+    "message": "RSSフィードをサイドバーでフォルダツリーで管理できます。",
     "description": "拡張機能の説明"
   },
 
@@ -71,7 +71,7 @@
   },
 
   "sbOpenUpdatedAsUnified": {
-    "message": "更新されたページをまとめて開く"
+    "message": "更新されたページを統合してから開く"
   },
   "sbSortByName": {
     "message": "名前から検索"
@@ -122,17 +122,17 @@
   },
 
   "sbComputingUnifiedView": {
-    "message": "Computing unified view"
+    "message": "統合したページを作成中"
   },
 
   "sbReceived": {
     "message": "received"
   },
   "sbFeedsUpdated": {
-    "message": "個のフィードが更新されています"
+    "message": "件の更新があります"
   },
   "sbOneFeedUpdated": {
-    "message": "一つ更新されています"
+    "message": "更新があります"
   },
   "sbNoFeedHasBeenUpdated": {
     "message": "更新はありません"
@@ -229,7 +229,7 @@
   },
 
   "disClose": {
-    "message": "Close"
+    "message": "閉じる"
   },
 
 
@@ -345,16 +345,18 @@
     "message": "エラーを表示"
   },
 
- "optRenderFeeds": {
-   "message": "フィードを整形して表示する"
- },
-
++  "optRenderFeeds": {
++    "message": "フィードを整形して表示する"
++  },
++
   "optAlwaysOpenNewTab": {
     "message": "常に新しいタブで開く"
   },
-
   "optOpenNewTabForeground": {
     "message": "新しいタブを手前で開く"
+  },
+  "optReuseDropFeedsTab": {
+    "message": "Drop Feedsのタブを使って開く"
   },
 
   "optSelectOpmlFileToImport": {
@@ -380,5 +382,27 @@
 
   "csSubscribeWithDropFeeds": {
     "message": "Drop Feedsで購読"
+  }
+
+  "ff56Text1": {
+    "message": "このアイコンでDrop Feedsサイドバーを開くにはFirefox57以降にアップデートしてください。"
+  },
+  "ff56Text2": {
+    "message": "Firefox56では、アドオンサイドバーを開くWebApiは実装されていません。"
+  },
+  "ff56Text3": {
+    "message": ""
+  },
+  "ff56Text4": {
+    "message": "Firefox56でDropFeedsを使うには:"
+  },
+  "ff56Text5": {
+    "message": "Firefoxの'サイドバーを開く'アイコンをクリックして "
+  },
+  "ff56Text6": {
+    "message": "リストからDropFeedsを選択してください。"
+  },
+  "ff56Text7": {
+    "message": "ここをクリックして閉じる"
   }
 }
